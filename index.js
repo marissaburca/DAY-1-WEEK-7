@@ -5,15 +5,15 @@ class User{
         this.age=_age
         this.location=_location
     }
-    comparison(number){
+    comparations(number){
         if(this.age > number.age) {return `${this.firstName} è più grande di ${number.firstName}`}
         else {return `${number.firstName} è più grande di ${this.firstName}`}
     }
 }
 
-const x = new User('Marissa', 'Burca', 25,'Italia')
-const y = new User('Michal', 'Hubac', 26, 'Czechia')
-console.log(x.comparation(y))
+const a = new User('Marissa', 'Burca', 25,'Italia')
+const b = new User('Michal', 'Hubac', 26, 'Czechia')
+console.log(a.comparations(b))
 
 
 /* form degli animali */
