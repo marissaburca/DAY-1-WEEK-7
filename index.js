@@ -5,7 +5,7 @@ class User{
         this.age=_age
         this.location=_location
     }
-    comparation(number){
+    comparison(number){
         if(this.age > number.age) {return `${this.firstName} è più grande di ${number.firstName}`}
         else {return `${number.firstName} è più grande di ${this.firstName}`}
     }
